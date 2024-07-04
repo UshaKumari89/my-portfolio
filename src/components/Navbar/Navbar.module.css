@@ -1,0 +1,118 @@
+@import "../../Var.css";
+
+.navbar {
+
+  position: fixed; /* Add this line */
+  top: 0; /* Ensures the navigation bar is at the top of the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  padding: 1rem 6rem;
+  width: 100%; /* Set the width to 100% to make it full-width */
+  background-color: var(--color-secondary);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems{
+  display: flex;
+  gap: 47px;
+  position: relative;
+}
+
+.menuItems a {
+  font-size: 1.3rem;
+  color: var(--color-text);
+  transition: color 1s;
+  
+}
+.menuBtn{
+	display: none;
+}
+
+.menuItems a {
+  font-size: 1.5rem;
+  color: var(--color-text);
+  transition: color 1s;
+  position: relative;
+  cursor: pointer;
+}
+
+.menuItems a::after {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  transition: width .5s;
+}
+.navbar.scrolled {
+  background-color: #123456; }
+
+/* .menuItems a:hover {
+  color: rgb(45,168,240);
+} */
+
+.menuItems a:hover::after {
+  width: 100%;
+  background-color:#fff;
+ 
+}
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 1rem ;
+   
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+    padding-right: 1rem;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}

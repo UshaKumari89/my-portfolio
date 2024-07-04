@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Hotellet Bonz.ai",
+    "imageSrc": "projects/BonziHotels.png",
+    "description": "School project Responsive website crafted with Semantic HTML and CSS. Explore a captivating landing page, discover our facilities, and seamlessly make bookings.",
+    "skills": ["Html", "CSS", "Flexbox", "Grid"],
+    "demo": "https://bonzi-hotels.netlify.app/",
+    "source": "https://github.com/UshaKumari89/Bonzi_website/tree/master"
+  },
+  {
+    "title": "Solar System",
+    "imageSrc": "projects/Solar-system.png",
+    "description": "A school project crafted with Vanilla JavaScript, showcasing a search and click functionality while providing detailed information about each celestial body in our solar system. ",
+    "skills": ["Html", "CSS", "JavaScript"],
+    "demo": "https://planetsdcf529.netlify.app/",
+    "source": "https://github.com/UshaKumari89/solarSystem/tree/master"
+  },
+  {
+    "title": "CRUD-App-React",
+    "imageSrc": "projects/Contact-App.png",
+    "description": "Utilizing Redux, this school project efficiently maps objects from a JSON file and takes on the challenge of creating, updating, and deleting items within the store. ",
+    "skills": ["React", "Redux", "Sass"],
+    "demo": "https://stalwart-dasik-9149e2.netlify.app/",
+    "source": "https://github.com/UshaKumari89/crud-react-final-exam"
+  },{
+    "title": "Air-beans-Node",
+    "imageSrc": "projects/project.png",
+    "description": "An Express and NeDb school project focused on seamless product management within a digital marketplace, featuring create, update, and delete functionalities.. ",
+    "skills": ["Node", "Express", "NeDB"],
+    "demo": "https://github.com/UshaKumari89/Air-beans-Exams",
+    "source": "https://github.com/UshaKumari89/Air-beans-Exams"
+  },
+  {
+    "title": "Resturant App",
+    "imageSrc": "projects/resturant.png",
+    "description": "Explore this website crafted during a summer of Bootstrap learning, where the magic of components was discovered and transformed into a digital masterpiece..",
+    "skills": ["Html", "CSS", "Bootstrap"],
+    "demo": "https://cooking-home.netlify.app/",
+    "source": "https://github.com/UshaKumari89/Home_cooking"
+  },
+  {
+    "title": "Yoga App",
+    "imageSrc": "projects/yoga.png",
+    "description": "Immerse yourself in the world of yoga through this website, visit this website which i Have  created with HTML, CSS, and javascript suring summer. ",
+    "skills": ["Html", "CSS", "js"],
+    "demo": "https://yogstudio-project.netlify.app/",
+    "source": "https://github.com/UshaKumari89/Nti_project"
+  }
+]
