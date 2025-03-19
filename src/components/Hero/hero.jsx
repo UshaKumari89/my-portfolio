@@ -1,6 +1,6 @@
 import styles from "./hero.module.css";
 import { getImageUrl } from "../../utils";
-import ushaResume from "./Usha Resume.pdf"; // Import your resume file
+import ushaResume from "./Usha Kumari - CV.pdf"; // Import your resume file
 import { FaRocket } from 'react-icons/fa';
 import Sociallinks from "../sociallinks/Sociallinks";
 
@@ -34,7 +34,7 @@ export const Hero = () => {
 
        <Sociallinks/>
       </div>
-      <img src = {getImageUrl("hero/profile.jpg")} alt="profile" className={styles.heroImg} />
+      <img src = {getImageUrl("hero/usha.JPG")} alt="profile" className={styles.heroImg} />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
