@@ -23,7 +23,7 @@ export const Hero = () => {
         </section>
         
         <p className={styles.description}>
-          A proud mom, baker, painter, and aspiring front-end developer seeking for a new oppertunity
+          A proud mom, baker, painter, front-end developer seeking for a new oppertunity
          to blend my creativity with code. 🎨💻
         </p>
         <button onClick={openResume} className={styles.button}>
